@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/pokeball.png">
+    <link rel="stylesheet" href="style.css">
+    <title>PokeCount</title>
+</head>
+<body>
+    <div class="player"></div>
+    <p id="score" class="score">Score: 0</p>
+    <!-- <p id="timer" class="timer">Time: 60s</p> -->
+    <!-- <p id="level" class="level">Level: 1</p> -->
+
+    <!-- Create a div to hold the alert box content -->
+    <div id="timer">Time: 60s</div> <!-- Timer display -->
+    
+    <div class="alert-box" style="display: none;"> <!-- Initially hidden -->
+        <p>Game Over! Do you want to play again?</p>
+        <button id="play-again-btn">Play Again</button>
+        <!-- <button id="cancel-btn">Cancel</button> -->
+    </div>
+        <script src="main.js"></script>
+</body>
+</html>
